@@ -1,0 +1,6 @@
+[submodule "backend/shop"]
+	path = backend/shop
+	url = https://github.com/DELTA-0924/online_shop_back_Django.git
+[submodule "frontend/shop"]
+	path = frontend/shop
+	url = https://github.com/DELTA-0924/online_shop_angular.git
