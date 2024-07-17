@@ -36,7 +36,7 @@ services:
     build:
       context: ./backend/shop/shop
     ports:
-      - "80:80"
+      - "8080:8080"
     depends_on:
       - postgres
     volumes:
