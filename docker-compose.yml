@@ -1,20 +1,5 @@
 version: '3.9'
 services:
-  # nginx:
-  #   image: nginx:latest
-  #   volumes: 
-  #     - ./nginx/nginx.conf:/etc/nginx/nginx.conf
-  #     - static_volume:/static
-  #     - static_volume:/media
-  #   volumes_from:
-  #     - backend      
-  #   ports:
-  #     - "80:80"
-  #   depends_on:
-  #     - backend 
-  #     - frontend      
-  #   environment:
-  #   - client_max_body_size=20M
 
   postgres:
     image: postgres:latest
@@ -65,7 +50,7 @@ services:
       - frontendnetwork
       - backendnetwork
 
-
+  
 
 volumes:
   static_volume:
